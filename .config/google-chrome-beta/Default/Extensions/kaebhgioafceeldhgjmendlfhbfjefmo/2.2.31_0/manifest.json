@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon19_normal.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_description__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/contentscript.js", "js/j142.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_name__",
+   "homepage_url": "http://www.eagleget.com/manually-add-eagleget-to-chrome-firefox/",
+   "icons": {
+      "128": "images/eagleget.ico",
+      "16": "images/menu.png",
+      "48": "images/main.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjce790V4VBzECzuH+A/HSi3fdpuwJJtGoaKZWHAfs+qZBe9UEeEE7h/Yh/t6cfbgIAC9WxaN0Gm9g5pcvi9HdPonAgWLYgJfw90B84wLyGHWjDxvCtmKoZ6iSijUXcFg87FDe7PBvcXegC7w4Ks0mIO3UL4nXKl3dailUaudkRSZXZE0CMSoRRPx0cTtuFeL/AjGc2F5rU4QDGooB4QpdDDno68AH5oSyoOuM3bRDqLk/mlh/ZYL2GEB6/lYeyY5PBuhOcLVY0LkgqOR+liXjXg7QDRdr8SwWmxZBy8XOENnPE/ZX9BiVmZwrImBAqI7dwAf92ANmATJWNLpneBnewIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "28.0",
+   "name": "EagleGet Free Downloader",
+   "offline_enabled": false,
+   "permissions": [ "http://*/*", "https://*/*", "tabs", "cookies", "contextMenus", "webNavigation", "webRequest", "webRequestBlocking", "management", "storage", "nativeMessaging", "downloads", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.31"
+}

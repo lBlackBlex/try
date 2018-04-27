@@ -1,0 +1,16 @@
+{
+   "appDesc": {
+      "description": "Вы можете выбирать скины из набора существующих. Скоро появится возможность генерировать скины самому.",
+      "message": "Расширение позволяет добавлять собственные скины в Slither.io."
+   },
+   "appDisabled": {
+      "message": "Slither.io Skins отключен"
+   },
+   "appEnabled": {
+      "message": "Slither.io Skins включен"
+   },
+   "appName": {
+      "description": "Дополнительные скины для популярной игры Slither.io.",
+      "message": "Slither.io Mods"
+   }
+}

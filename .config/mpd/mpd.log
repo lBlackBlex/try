@@ -1,0 +1,8 @@
+Apr 15 15:09 : exception: Failed to open /home/blackblex/.config/mpd/mpdstate: No such file or directory
+Apr 15 15:11 : client: [0] opened from [::1]:43906
+Apr 15 15:11 : exception: Failed to read mixer for 'My sound card': no such mixer control: PCM
+Apr 15 15:12 : client: [0] closed
+Apr 15 15:14 : client: [1] opened from [::1]:43914
+Apr 15 15:14 : client: [1] closed
+Apr 15 15:14 : client: [2] opened from [::1]:43916
+Apr 15 15:14 : client: [2] closed

@@ -1,0 +1,19 @@
+[2018-04-23 11:35:54.979] [renderer1] [error] Cannot read property 'map' of undefined: TypeError: Cannot read property 'map' of undefined
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:557:582
+	at Object.g [as _notify] (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:69:572)
+	at Object.enter (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:72:924)
+	at n.Class.derive._oncancel._run (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:74:719)
+	at n.Class.derive._oncancel._completed (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:74:160)
+	at e.resolveOk (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:497:926)
+	at e._receiveReply (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:559:735)
+	at e._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:559:79)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:558:75
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:560:929
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:30
+	at e.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:89:344)
+	at Socket.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/node/extensionHostProcess.js:143:1008)
+	at emitOne (events.js:96:13)
+	at Socket.emit (events.js:191:7)
+	at readableAddChunk (_stream_readable.js:178:18)
+	at Socket.Readable.push (_stream_readable.js:136:10)
+	at Pipe.onread (net.js:560:20)

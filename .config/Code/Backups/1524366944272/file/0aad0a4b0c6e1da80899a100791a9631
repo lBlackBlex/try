@@ -1,0 +1,67 @@
+file:///home/blackblex/Documentos/Untitled1.cpp
+#include <stdio.h>
+#include <stdlib.h>
+
+int leer(char[]);
+void ordenar(int &,int &,int &);
+void print(int, int, int);
+
+int main (){
+
+    int n1 = leer("Ingresa el primer valor: ");
+    int n2 = leer("Ingresa el segundo valor: ");
+    int n3 = leer("Ingresa el tercer valor: ");
+        
+    ordenar(n1,n2,n3);
+    print(n1,n2,n3);
+    
+    
+    system("pause");
+    return 0;    
+}
+
+int leer (char a[]){
+    int n;
+    printf("%s",a);
+    scanf("%i",&n);
+    
+    return n;
+}
+
+void print (int a, int b, int c){
+     printf("%i %i %i\n", a,b,c);
+}
+
+void ordenar (int &a, int &b, int &c){
+    int temp;
+    
+    if(a<=b && a<=c){
+          if(b>=c){
+            temp = b;
+            b = c;
+            c = temp;
+          }
+          
+    }else if(b<=a && b<=c){
+          temp = a;
+          a = b;
+          b = temp;
+          
+          if(b>=c){
+            temp = b;
+            b = c;
+            c = temp;
+          }
+          
+    }else{
+          temp = a;
+          a = c;
+          c = temp;  
+          
+          if(b>=c){
+            temp = b;
+            b = c;
+            c = temp;
+          }
+    }
+}

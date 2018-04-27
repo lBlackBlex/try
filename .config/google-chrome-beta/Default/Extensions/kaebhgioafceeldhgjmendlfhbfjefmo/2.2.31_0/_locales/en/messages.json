@@ -1,0 +1,32 @@
+{
+   "alert_EG_not_detected": {
+      "message": "Eagleget was not found.\n\nPlease download and install it first."
+   },
+   "confirm_EG_not_detected": {
+      "message": "Eagleget was not found.\n\nWant to open Eagleget home page to download and install it?"
+   },
+   "description": {
+      "message": "Eagleget Downloader for Chrome"
+   },
+   "disable": {
+      "message": "EagleGet has disabled"
+   },
+   "enable": {
+      "message": "EagleGet has enabled"
+   },
+   "exception": {
+      "message": "EagleGet exception"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "menu_download_all_links": {
+      "message": "Download all links with Eagleget"
+   },
+   "menu_download_link": {
+      "message": "Download with Eagleget"
+   },
+   "name": {
+      "message": "Download files with Eagleget"
+   }
+}

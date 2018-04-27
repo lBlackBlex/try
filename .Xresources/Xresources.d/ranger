@@ -1,0 +1,55 @@
+!Darcula
+!#define t_background       #2b2b2b
+!#define t_current_line     #2b2b2b
+!#define t_selection        #333333
+!#define t_foreground       #a9b7c6
+!#define t_comment          #c7dd0c
+!#define t_red              #a02929
+!#define t_yellow           #fe9b00
+!#define t_bright_yellow    #ffc66d
+!#define t_green            #619647
+!#define t_bright_green     #7fb347
+!#define t_aqua             #a9b7c6
+!#define t_blue             #6897bb
+!#define t_purple           #664975
+!#define t_bright_purple	   #b777e0
+!#define t_grey		   #2b2b2b
+!#define t_bright_grey	   #888888
+
+#define t_black		#2b2b2b
+#define t_red		#a02929
+#define t_green		#619647
+#define t_yellow	#fe9b00
+#define t_blue		#6897c6
+#define t_magenta	#664975
+#define t_cyan		#00b1b1
+#define t_white		#a9b7c6
+#define t_brightblack	#888888
+#define t_brightred	#c70202
+#define t_brightgreen	#4cd20c
+#define t_brightyellow	#fadf1b
+#define t_brightblue	#25a0fe
+#define t_brightmagenta	#b029f7
+#define t_brightcyan	#30f7f7
+#define t_brightwhite	#e4e8ed
+
+*.foreground:   t_white
+*.background:   t_black
+*.cursorColor:  t_white
+
+*.color0:	t_black
+*.color1:	t_red
+*.color2:	t_green
+*.color3:	t_yellow
+*.color4:	t_blue
+*.color5:	t_magenta
+*.color6:	t_cyan
+*.color7:	t_white
+*.color8:	t_brightblack
+*.color9:	t_brightred
+*.color10:	t_brightgreen
+*.color11:	t_brightyellow
+*.color12:	t_brightblue
+*.color13:	t_brightmagenta
+*.color14:	t_brightcyan
+*.color15:	t_brightwhite

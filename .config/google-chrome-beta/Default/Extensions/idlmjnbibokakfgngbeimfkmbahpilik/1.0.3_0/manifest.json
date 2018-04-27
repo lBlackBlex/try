@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "http://slither.io/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon-128.png",
+      "195": "image.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn9rqSv2hCesXygtwDxXM+nhxhcC4N5mWNiNb7673CKri8wY0IVh9478LO3g9S1Gmk2CUGCbdQrJMqXDssD/oeJUi4YlLvoM9NbGic7rG7V272uw+XOmg9Dt3Tbxj7AFM61BFWZnLSS6obURLl7ENqjC5N8CbyEwu1HNRuRojuWNzleLTmGFJhCpWW7RIblFRboJ3LLjWeWr8utU5K/x0KBtdqXaK0k/RKn0QS00Xg4dYHqd29NVw81UbFReGOFkRA8391QEpbZMuP9nXouuNTlgt7p/BwYarSl4w7DAJKuXC1VlFqNOyPOL/bfGfPfuU1Ys49SRMwE8ZpD533sZY4wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "page_action": {
+      "default_icon": "icon.png",
+      "default_title": "__MSG_appEnabled__"
+   },
+   "permissions": [ "webRequest", "http://slither.io/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3",
+   "web_accessible_resources": [ "icon-48.png", "disabled.png", "ext.js" ]
+}

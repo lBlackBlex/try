@@ -1,0 +1,16 @@
+{
+   "appDesc": {
+      "description": "You can use skins from an existing set of skins. Soon it will be possible to generate custom skins.",
+      "message": "This extension allows to add custom skins into slither.io game."
+   },
+   "appDisabled": {
+      "message": "Slither.io Skins Disabled"
+   },
+   "appEnabled": {
+      "message": "Slither.io Skins Enabled"
+   },
+   "appName": {
+      "description": "Extended skins for Slither.io game.",
+      "message": "Slither.io Mods"
+   }
+}

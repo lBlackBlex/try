@@ -1,0 +1,16 @@
+{
+   "appDesc": {
+      "description": "Ви можете обирати скіни із набору існуючих. Скоро з'явиться можливість генеувати власні скіни.",
+      "message": "Розширення дозвоялє додавати власні скіни в Slither.io."
+   },
+   "appDisabled": {
+      "message": "Slither.io Skins виключений"
+   },
+   "appEnabled": {
+      "message": "Slither.io Skins включений"
+   },
+   "appName": {
+      "description": "Додаткові скіни для популярної гри Slither.io.",
+      "message": "Slither.io Mods"
+   }
+}

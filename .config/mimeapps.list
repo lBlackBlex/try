@@ -1,0 +1,6 @@
+[Default Applications]
+x-scheme-handler/ssh=Hyper.desktop
+application/pdf=org.pwmt.zathura.desktop
+
+[Added Associations]
+application/pdf=org.pwmt.zathura.desktop;

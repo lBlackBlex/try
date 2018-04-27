@@ -1,0 +1,152 @@
+[2018-04-23 11:29:45.038] [sharedprocess] [info] main {"machineId":"2874dcb24bd3f95072508b49f859125c01294f3f743fdd1b4cb5fd767f080b33"}
+[2018-04-23 11:29:45.465] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:29:46.113] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:29:48.817] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:29:48.825] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:29:48.831] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:29:48.919] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:29:48.927] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:29:50.192] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:29:50.197] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:29:50.270] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:29:53.013] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:30:08.158] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:30:08.169] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:30:08.177] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-23 11:30:08.282] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:30:08.291] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:30:25.048] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-04-23 11:31:23.294] [sharedprocess] [info] Installing extension: vscode-babel-coloring
+[2018-04-23 11:31:24.024] [sharedprocess] [info] Downloaded extension: vscode-babel-coloring
+[2018-04-23 11:31:24.114] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.dzannotti.vscode-babel-coloring-0.0.4: dzannotti.vscode-babel-coloring-0.0.4
+[2018-04-23 11:31:24.115] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/dzannotti.vscode-babel-coloring-0.0.4
+[2018-04-23 11:31:24.115] [sharedprocess] [info] Installation completed. dzannotti.vscode-babel-coloring-0.0.4
+[2018-04-23 11:31:24.160] [sharedprocess] [info] Extensions installed successfully: dzannotti.vscode-babel-coloring
+[2018-04-23 11:31:24.309] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-23 11:31:24.354] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:31:42.560] [sharedprocess] [info] Installing extension: csharp
+[2018-04-23 11:31:43.500] [sharedprocess] [info] Downloaded extension: csharp
+[2018-04-23 11:31:44.923] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.ms-vscode.csharp-1.14.0: ms-vscode.csharp-1.14.0
+[2018-04-23 11:31:44.923] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/ms-vscode.csharp-1.14.0
+[2018-04-23 11:31:44.923] [sharedprocess] [info] Installation completed. ms-vscode.csharp-1.14.0
+[2018-04-23 11:31:45.073] [sharedprocess] [info] Extensions installed successfully: ms-vscode.csharp
+[2018-04-23 11:31:45.231] [sharedprocess] [info] Scanned user extensions: 4
+[2018-04-23 11:31:45.272] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:31:49.010] [sharedprocess] [info] Scanned user extensions: 4
+[2018-04-23 11:31:49.018] [sharedprocess] [info] Scanned user extensions: 4
+[2018-04-23 11:31:49.100] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:31:49.112] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:31:58.421] [sharedprocess] [info] Installing extension: EditorConfig
+[2018-04-23 11:31:59.323] [sharedprocess] [info] Downloaded extension: EditorConfig
+[2018-04-23 11:31:59.525] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.EditorConfig.editorconfig-0.12.1: EditorConfig.editorconfig-0.12.1
+[2018-04-23 11:31:59.526] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/EditorConfig.editorconfig-0.12.1
+[2018-04-23 11:31:59.526] [sharedprocess] [info] Installation completed. EditorConfig.editorconfig-0.12.1
+[2018-04-23 11:31:59.587] [sharedprocess] [info] Extensions installed successfully: EditorConfig.editorconfig
+[2018-04-23 11:31:59.752] [sharedprocess] [info] Scanned user extensions: 5
+[2018-04-23 11:31:59.795] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:32:09.423] [sharedprocess] [info] Installing extension: vscode-eslint
+[2018-04-23 11:32:09.885] [sharedprocess] [info] Downloaded extension: vscode-eslint
+[2018-04-23 11:32:10.279] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.dbaeumer.vscode-eslint-1.4.8: dbaeumer.vscode-eslint-1.4.8
+[2018-04-23 11:32:10.279] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8
+[2018-04-23 11:32:10.279] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint-1.4.8
+[2018-04-23 11:32:10.325] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2018-04-23 11:32:10.485] [sharedprocess] [info] Scanned user extensions: 6
+[2018-04-23 11:32:10.512] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:32:24.616] [sharedprocess] [info] Installing extension: file-icons
+[2018-04-23 11:32:27.960] [sharedprocess] [info] Downloaded extension: file-icons
+[2018-04-23 11:32:31.904] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.file-icons.file-icons-1.0.12: file-icons.file-icons-1.0.12
+[2018-04-23 11:32:31.904] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/file-icons.file-icons-1.0.12
+[2018-04-23 11:32:31.904] [sharedprocess] [info] Installation completed. file-icons.file-icons-1.0.12
+[2018-04-23 11:32:31.974] [sharedprocess] [info] Extensions installed successfully: file-icons.file-icons
+[2018-04-23 11:32:32.157] [sharedprocess] [info] Scanned user extensions: 7
+[2018-04-23 11:32:32.192] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:32:43.820] [sharedprocess] [info] Installing extension: markdown-preview-enhanced
+[2018-04-23 11:32:55.264] [sharedprocess] [info] Scanned user extensions: 7
+[2018-04-23 11:32:55.289] [sharedprocess] [info] Scanned user extensions: 7
+[2018-04-23 11:32:55.414] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:32:55.428] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:32:55.937] [sharedprocess] [info] Downloaded extension: markdown-preview-enhanced
+[2018-04-23 11:33:03.144] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.shd101wyy.markdown-preview-enhanced-0.3.5: shd101wyy.markdown-preview-enhanced-0.3.5
+[2018-04-23 11:33:03.145] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.3.5
+[2018-04-23 11:33:03.145] [sharedprocess] [info] Installation completed. shd101wyy.markdown-preview-enhanced-0.3.5
+[2018-04-23 11:33:03.792] [sharedprocess] [info] Extensions installed successfully: shd101wyy.markdown-preview-enhanced
+[2018-04-23 11:33:03.996] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-23 11:33:04.042] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:33:05.788] [sharedprocess] [info] Installing extension: mithril-emmet
+[2018-04-23 11:33:09.112] [sharedprocess] [info] Downloaded extension: mithril-emmet
+[2018-04-23 11:33:11.054] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.FallenMax.mithril-emmet-0.7.1: FallenMax.mithril-emmet-0.7.1
+[2018-04-23 11:33:11.054] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/FallenMax.mithril-emmet-0.7.1
+[2018-04-23 11:33:11.054] [sharedprocess] [info] Installation completed. FallenMax.mithril-emmet-0.7.1
+[2018-04-23 11:33:11.743] [sharedprocess] [info] Extensions installed successfully: FallenMax.mithril-emmet
+[2018-04-23 11:33:11.930] [sharedprocess] [info] Scanned user extensions: 9
+[2018-04-23 11:33:11.976] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:33:20.240] [sharedprocess] [info] Installing extension: vscode-npm
+[2018-04-23 11:33:20.649] [sharedprocess] [info] Downloaded extension: vscode-npm
+[2018-04-23 11:33:20.690] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.fknop.vscode-npm-3.3.0: fknop.vscode-npm-3.3.0
+[2018-04-23 11:33:20.690] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/fknop.vscode-npm-3.3.0
+[2018-04-23 11:33:20.690] [sharedprocess] [info] Installation completed. fknop.vscode-npm-3.3.0
+[2018-04-23 11:33:20.878] [sharedprocess] [info] Extensions installed successfully: fknop.vscode-npm
+[2018-04-23 11:33:21.075] [sharedprocess] [info] Scanned user extensions: 10
+[2018-04-23 11:33:21.117] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:33:36.704] [sharedprocess] [info] Installing extension: npm-intellisense
+[2018-04-23 11:33:37.508] [sharedprocess] [info] Downloaded extension: npm-intellisense
+[2018-04-23 11:33:37.605] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.christian-kohler.npm-intellisense-1.3.0: christian-kohler.npm-intellisense-1.3.0
+[2018-04-23 11:33:37.606] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/christian-kohler.npm-intellisense-1.3.0
+[2018-04-23 11:33:37.606] [sharedprocess] [info] Installation completed. christian-kohler.npm-intellisense-1.3.0
+[2018-04-23 11:33:37.932] [sharedprocess] [info] Extensions installed successfully: christian-kohler.npm-intellisense
+[2018-04-23 11:33:38.148] [sharedprocess] [info] Scanned user extensions: 11
+[2018-04-23 11:33:38.194] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:34:05.837] [sharedprocess] [info] Installing extension: Material-theme
+[2018-04-23 11:34:06.284] [sharedprocess] [info] Downloaded extension: Material-theme
+[2018-04-23 11:34:06.313] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.zhuangtongfa.material-theme-2.13.4: zhuangtongfa.material-theme-2.13.4
+[2018-04-23 11:34:06.313] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/zhuangtongfa.material-theme-2.13.4
+[2018-04-23 11:34:06.313] [sharedprocess] [info] Installation completed. zhuangtongfa.material-theme-2.13.4
+[2018-04-23 11:34:06.362] [sharedprocess] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2018-04-23 11:34:06.558] [sharedprocess] [info] Scanned user extensions: 12
+[2018-04-23 11:34:06.594] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:34:53.075] [sharedprocess] [info] Scanned user extensions: 12
+[2018-04-23 11:34:56.265] [sharedprocess] [info] Installing extension: theme-panda
+[2018-04-23 11:35:00.829] [sharedprocess] [info] Downloaded extension: theme-panda
+[2018-04-23 11:35:00.980] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.tinkertrain.theme-panda-1.2.0: tinkertrain.theme-panda-1.2.0
+[2018-04-23 11:35:00.980] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/tinkertrain.theme-panda-1.2.0
+[2018-04-23 11:35:00.980] [sharedprocess] [info] Installation completed. tinkertrain.theme-panda-1.2.0
+[2018-04-23 11:35:01.053] [sharedprocess] [info] Extensions installed successfully: tinkertrain.theme-panda
+[2018-04-23 11:35:01.251] [sharedprocess] [info] Scanned user extensions: 13
+[2018-04-23 11:35:01.278] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:14.047] [sharedprocess] [info] Installing extension: path-intellisense
+[2018-04-23 11:35:14.242] [sharedprocess] [info] Downloaded extension: path-intellisense
+[2018-04-23 11:35:14.307] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.christian-kohler.path-intellisense-1.4.2: christian-kohler.path-intellisense-1.4.2
+[2018-04-23 11:35:14.307] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/christian-kohler.path-intellisense-1.4.2
+[2018-04-23 11:35:14.307] [sharedprocess] [info] Installation completed. christian-kohler.path-intellisense-1.4.2
+[2018-04-23 11:35:14.804] [sharedprocess] [info] Extensions installed successfully: christian-kohler.path-intellisense
+[2018-04-23 11:35:14.997] [sharedprocess] [info] Scanned user extensions: 14
+[2018-04-23 11:35:15.028] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:27.859] [sharedprocess] [info] Installing extension: vscode-todo-highlight
+[2018-04-23 11:35:28.744] [sharedprocess] [info] Downloaded extension: vscode-todo-highlight
+[2018-04-23 11:35:28.838] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.wayou.vscode-todo-highlight-0.5.12: wayou.vscode-todo-highlight-0.5.12
+[2018-04-23 11:35:28.839] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/wayou.vscode-todo-highlight-0.5.12
+[2018-04-23 11:35:28.839] [sharedprocess] [info] Installation completed. wayou.vscode-todo-highlight-0.5.12
+[2018-04-23 11:35:29.119] [sharedprocess] [info] Extensions installed successfully: wayou.vscode-todo-highlight
+[2018-04-23 11:35:29.330] [sharedprocess] [info] Scanned user extensions: 15
+[2018-04-23 11:35:29.365] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:41.990] [sharedprocess] [info] Installing extension: vscode-icons
+[2018-04-23 11:35:43.140] [sharedprocess] [info] Downloaded extension: vscode-icons
+[2018-04-23 11:35:46.630] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.robertohuertasm.vscode-icons-7.22.0: robertohuertasm.vscode-icons-7.22.0
+[2018-04-23 11:35:46.630] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/robertohuertasm.vscode-icons-7.22.0
+[2018-04-23 11:35:46.630] [sharedprocess] [info] Installation completed. robertohuertasm.vscode-icons-7.22.0
+[2018-04-23 11:35:47.246] [sharedprocess] [info] Extensions installed successfully: robertohuertasm.vscode-icons
+[2018-04-23 11:35:47.440] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:47.462] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:51.514] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:51.523] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:51.535] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:51.544] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:51.558] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:51.692] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:51.703] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:35:51.750] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:51.763] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:51.775] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:51.797] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-23 11:35:55.155] [sharedprocess] [info] Scanned user extensions: 16
+[2018-04-23 11:40:55.208] [sharedprocess] [info] Scanned user extensions: 16

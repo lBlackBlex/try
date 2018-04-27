@@ -1,0 +1,48 @@
+[2018-04-22 23:47:32.970] [sharedprocess] [info] main {"machineId":"2874dcb24bd3f95072508b49f859125c01294f3f743fdd1b4cb5fd767f080b33"}
+[2018-04-22 23:47:33.072] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:47:33.909] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:47:39.017] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:47:39.027] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:47:39.032] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:47:39.234] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:47:39.249] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:47:39.988] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:47:40.254] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:47:43.670] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:47:58.147] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:48:00.942] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:48:00.947] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:48:00.967] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:48:01.152] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:01.169] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:01.875] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-22 23:48:01.980] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:02.233] [sharedprocess] [info] Installing extension: cpptools
+[2018-04-22 23:48:04.204] [sharedprocess] [info] Downloaded extension: cpptools
+[2018-04-22 23:48:06.077] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.ms-vscode.cpptools-0.16.1: ms-vscode.cpptools-0.16.1
+[2018-04-22 23:48:06.082] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/ms-vscode.cpptools-0.16.1
+[2018-04-22 23:48:06.082] [sharedprocess] [info] Installation completed. ms-vscode.cpptools-0.16.1
+[2018-04-22 23:48:06.156] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2018-04-22 23:48:06.302] [sharedprocess] [info] Scanned user extensions: 1
+[2018-04-22 23:48:06.357] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:12.980] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-04-22 23:48:13.501] [sharedprocess] [info] Installing extension: code-gnu-global
+[2018-04-22 23:48:14.447] [sharedprocess] [info] Downloaded extension: code-gnu-global
+[2018-04-22 23:48:14.709] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/.austin.code-gnu-global-0.2.2: austin.code-gnu-global-0.2.2
+[2018-04-22 23:48:14.709] [sharedprocess] [info] Renamed to /home/blackblex/.vscode/extensions/austin.code-gnu-global-0.2.2
+[2018-04-22 23:48:14.709] [sharedprocess] [info] Installation completed. austin.code-gnu-global-0.2.2
+[2018-04-22 23:48:15.613] [sharedprocess] [info] Extensions installed successfully: austin.code-gnu-global
+[2018-04-22 23:48:15.782] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:48:15.873] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:21.609] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:48:21.612] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:48:21.622] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:48:21.663] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:48:21.668] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:48:21.864] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:21.876] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:21.883] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-22 23:48:21.897] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:48:26.066] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:53:26.651] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-22 23:58:26.893] [sharedprocess] [info] Scanned user extensions: 2

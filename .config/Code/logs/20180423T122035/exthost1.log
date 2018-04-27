@@ -1,0 +1,26 @@
+[2018-04-23 12:20:39.244] [exthost1] [info] extension host started
+[2018-04-23 12:20:39.305] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.305] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2018-04-23 12:20:39.400] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.400] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2018-04-23 12:20:39.653] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.653] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2018-04-23 12:20:39.669] [exthost1] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.669] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/EditorConfig.editorconfig-0.12.1/out/src/editorConfigMain
+[2018-04-23 12:20:39.706] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.706] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2018-04-23 12:20:39.725] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.725] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-04-23 12:20:39.810] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.810] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/robertohuertasm.vscode-icons-7.22.0/out/src/
+[2018-04-23 12:20:39.969] [exthost1] [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight {"startup":true,"activationEvent":"*"}
+[2018-04-23 12:20:39.969] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/wayou.vscode-todo-highlight-0.5.12/src/extension
+[2018-04-23 12:20:39.976] [exthost1] [info] eager extensions activated
+[2018-04-23 12:20:39.976] [exthost1] [info] ExtensionService#_doActivateExtension austin.code-gnu-global {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-04-23 12:20:39.976] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/austin.code-gnu-global-0.2.2/out/src/extension
+[2018-04-23 12:20:40.025] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-04-23 12:20:40.025] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/ms-vscode.cpptools-0.16.1/out/src/main
+[2018-04-23 12:20:54.462] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-04-23 12:20:54.463] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/configuration-editing/out/extension
+[2018-04-23 12:20:54.479] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-04-23 12:20:54.479] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/json-language-features/client/out/jsonMain

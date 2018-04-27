@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Arch Linux: Recent news updates</title><link>https://www.archlinux.org/news/</link><description>The latest and greatest news from the Arch Linux distribution.</description><atom:link href="https://www.archlinux.org/feeds/news/" rel="self"></atom:link><language>en-us</language><lastBuildDate>Fri, 20 Apr 2018 07:45:46 +0000</lastBuildDate><item><title>glibc 2.27-2 and pam 1.3.0-2 may require manual intervention</title><link>https://www.archlinux.org/news/glibc-227-2-and-pam-130-2-may-require-manual-intervention/</link><description>&lt;p&gt;The new version of glibc removes support for NIS and NIS+. The default
+&lt;code&gt;/etc/nsswitch.conf&lt;/code&gt; file provided by &lt;code&gt;filesystem&lt;/code&gt; package already
+reflects this change. Please make sure to merge pacnew file if it exists
+prior to upgrade.&lt;/p&gt;
+&lt;p&gt;NIS functionality can still be enabled by installing &lt;code&gt;libnss_nis&lt;/code&gt;
+package. There is no replacement for NIS+ in the official repositories.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pam 1.3.0-2&lt;/code&gt; no longer ships pam_unix2 module and &lt;code&gt;pam_unix_*.so&lt;/code&gt;
+compatibility symlinks. Before upgrading, review PAM configuration files
+in the &lt;code&gt;/etc/pam.d&lt;/code&gt; directory and replace removed modules with
+&lt;code&gt;pam_unix.so&lt;/code&gt;. Users of pam_unix2 should also reset their passwords
+after such change. Defaults provided by &lt;code&gt;pambase&lt;/code&gt; package do not need
+any modifications.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bartłomiej Piotrowski</dc:creator><pubDate>Fri, 20 Apr 2018 07:45:46 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2018-04-20:/news/glibc-227-2-and-pam-130-2-may-require-manual-intervention/</guid></item><item><title>zita-resampler 1.6.0-1 -&gt; 2 update requires manual intervention</title><link>https://www.archlinux.org/news/zita-resampler-160-1-2-update-requires-manual-intervention/</link><description>&lt;p&gt;The zita-resampler 1.6.0-1 package was missing a library symlink that has been readded in 1.6.0-2. If you installed 1.6.0-1, ldconfig would have created this symlink at install time, and it will conflict with the one included in 1.6.0-2. In that case, remove /usr/lib/libzita-resampler.so.1 manually before updating.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Antonio Rojas</dc:creator><pubDate>Thu, 22 Feb 2018 07:57:11 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2018-02-22:/news/zita-resampler-160-1-2-update-requires-manual-intervention/</guid></item><item><title> The end of i686 support</title><link>https://www.archlinux.org/news/the-end-of-i686-support/</link><description>&lt;p&gt;Following 9 months of &lt;a href="https://www.archlinux.org/news/phasing-out-i686-support/"&gt;deprecation period&lt;/a&gt;, support for the i686
+architecture effectively ends today. By the end of November, i686
+packages will be removed from our mirrors and later from the packages
+archive. The [multilib] repository is not affected.&lt;/p&gt;
+&lt;p&gt;For users unable to upgrade their hardware to x86_64, an alternative is
+a community maintained fork named &lt;a href="https://archlinux32.org/"&gt;Arch Linux 32&lt;/a&gt;. See their website
+for details on migrating existing installations.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bartłomiej Piotrowski</dc:creator><pubDate>Wed, 08 Nov 2017 13:39:10 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2017-11-08:/news/the-end-of-i686-support/</guid></item><item><title>Perl library path change</title><link>https://www.archlinux.org/news/perl-library-path-change/</link><description>&lt;p&gt;The perl package now uses a versioned path for compiled modules. This means
+that modules built for a non-matching perl version will not be loaded any more
+and must be rebuilt. &lt;/p&gt;
+&lt;p&gt;A pacman hook warns about affected modules during the upgrade by showing output
+like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;WARNING: '/usr/lib/perl5/vendor_perl' contains data from at least 143 packages which will NOT be used by the installed perl interpreter.
+ -&amp;gt; Run the following command to get a list of affected packages: pacman -Qqo '/usr/lib/perl5/vendor_perl'
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You must rebuild all affected packages against the new perl package before you
+can use them again. The change also affects modules installed directly via
+CPAN. Rebuilding will also be necessary again with future major perl updates
+like 5.28 and 5.30.&lt;/p&gt;
+&lt;p&gt;Please note that rebuilding was already required for major updates prior to
+this change, however now perl will no longer try to load the modules and then fail in strange ways.&lt;/p&gt;
+&lt;p&gt;If the build system of some software does not detect the change automatically,
+you can use &lt;code&gt;perl -V:vendorarch&lt;/code&gt; in your PKGBUILD to query perl for the
+correct path. There is also &lt;code&gt;sitearch&lt;/code&gt; for software that is not packaged with
+pacman.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Florian Pritz</dc:creator><pubDate>Sat, 02 Sep 2017 11:44:22 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2017-09-02:/news/perl-library-path-change/</guid></item><item><title>Deprecation of ABS tool and rsync endpoint</title><link>https://www.archlinux.org/news/deprecation-of-abs/</link><description>&lt;p&gt;Due to high maintenance cost of scripts related to the Arch Build
+System, we have decided to deprecate the &lt;code&gt;abs&lt;/code&gt; tool and thus rsync
+as a way of obtaining PKGBUILDs.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;asp&lt;/code&gt; tool, available in [extra], provides similar functionality to
+&lt;code&gt;abs&lt;/code&gt;.  &lt;code&gt;asp export pkgname&lt;/code&gt; can be used as direct alternative; more
+information about its usage can be found in &lt;a href="https://github.com/falconindy/asp/blob/master/man/asp.1.txt"&gt;the documentation&lt;/a&gt;.
+Additionally Subversion sparse checkouts, as described &lt;a href="https://www.archlinux.org/svn/"&gt;here&lt;/a&gt;, can
+be used to achieve a similar effect.  For fetching all PKGBUILDs, the
+best way is cloning the &lt;a href="https://git.archlinux.org/svntogit/"&gt;svntogit&lt;/a&gt; mirrors.&lt;/p&gt;
+&lt;p&gt;While the &lt;code&gt;extra/abs&lt;/code&gt; package has been already dropped, the rsync
+endpoint (rsync://rsync.archlinux.org/abs) will be disabled by the end
+of the month.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bartłomiej Piotrowski</dc:creator><pubDate>Mon, 15 May 2017 10:55:50 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2017-05-15:/news/deprecation-of-abs/</guid></item><item><title>ca-certificates-utils 20170307-1 upgrade requires manual intervention</title><link>https://www.archlinux.org/news/ca-certificates-utils-20170307-1-upgrade-requires-manual-intervention/</link><description>&lt;p&gt;The upgrade to &lt;strong&gt;ca-certificates-utils 20170307-1&lt;/strong&gt; requires manual intervention because a symlink which used to be generated post-install has been moved into the package proper.&lt;/p&gt;
+&lt;p&gt;As deleting the symlink may leave you unable to download packages, perform this upgrade in three steps:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# pacman -Syuw                           # download packages
+# rm /etc/ssl/certs/ca-certificates.crt  # remove conflicting file
+# pacman -Su                             # perform upgrade
+&lt;/code&gt;&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jan Steffens</dc:creator><pubDate>Wed, 15 Mar 2017 21:27:54 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2017-03-15:/news/ca-certificates-utils-20170307-1-upgrade-requires-manual-intervention/</guid></item><item><title>mesa  with libglvnd support is now in testing</title><link>https://www.archlinux.org/news/mesa-with-libglvnd-support-is-now-in-testing/</link><description>&lt;p&gt;&lt;code&gt;mesa&lt;/code&gt;-17.0.0-3 can now be installed side-by-side with &lt;code&gt;nvidia&lt;/code&gt;-378.13 driver without any libgl/libglx hacks, and with the help of Fedora and upstream xorg-server patches.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;First step was to remove the libglx symlinks with xorg-server-1.19.1-3 and associated mesa/nvidia drivers through the removal of various libgl packages. It was a tough moment because it was breaking optimus system, &lt;code&gt;xorg-server&lt;/code&gt; configuration needs manual updating.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The second step is now here, with an updated &lt;a href="https://git.archlinux.org/svntogit/packages.git/tree/trunk/nvidia-drm-outputclass.conf?h=packages/nvidia-utils"&gt;10-nvidia-drm-outputclass.conf&lt;/a&gt;  file that should help to have an "out-of-the-box" working &lt;code&gt;xorg-server&lt;/code&gt; experience with optimus system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please test this extensively and post your feedback in this &lt;a href="https://bbs.archlinux.org/viewtopic.php?id=223603"&gt;forum thread&lt;/a&gt; or in our &lt;a href="https://bugs.archlinux.org/"&gt;bugtracker&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Laurent Carlier</dc:creator><pubDate>Mon, 27 Feb 2017 20:15:02 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2017-02-27:/news/mesa-with-libglvnd-support-is-now-in-testing/</guid></item><item><title>Phasing out i686 support</title><link>https://www.archlinux.org/news/phasing-out-i686-support/</link><description>&lt;p&gt;Due to the decreasing popularity of i686 among the developers and the
+community, we have decided to phase out the support of this architecture.&lt;/p&gt;
+&lt;p&gt;The decision means that February ISO will be the last that allows to
+install 32 bit Arch Linux. The next 9 months are deprecation period,
+during which i686 will be still receiving upgraded packages. Starting
+from November 2017, packaging and repository tools will no longer
+require that from maintainers, effectively making i686 unsupported.&lt;/p&gt;
+&lt;p&gt;However, as there is still some interest in keeping i686 alive, we would
+like to encourage the community to make it happen with our guidance. The
+&lt;a href="https://lists.archlinux.org/listinfo/arch-ports"&gt;arch-ports&lt;/a&gt; mailing list and #archlinux-ports IRC channel on Freenode
+will be used for further coordination.&lt;/p&gt;
+&lt;p&gt;The [multilib] repository will not be affected by this change.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bartłomiej Piotrowski</dc:creator><pubDate>Wed, 25 Jan 2017 18:23:33 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2017-01-25:/news/phasing-out-i686-support/</guid></item><item><title>xorg-server 1.19.1 is now in extra</title><link>https://www.archlinux.org/news/xorg-server-1191-is-now-in-extra/</link><description>&lt;p&gt;The new version comes with the following changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;xf86-input-libinput is the default input driver, however synaptics, evdev and wacom are still available.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;These packages are deprecated and moved to AUR:
+xf86-input-joystick, xf86-input-acecad, xf86-video-apm, xf86-video-ark, xf86-video-chips, xf86-video-glint, xf86-video-i128, xf86-video-i740, xf86-video-mach64, xf86-video-neomagic, xf86-video-nv, xf86-video-r128, xf86-video-rendition, xf86-video-s3, xf86-video-s3virge, xf86-video-savage, xf86-video-siliconmotion, xf86-video-sis, xf86-video-tdfx, xf86-video-trident, xf86-video-tseng&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Laurent Carlier</dc:creator><pubDate>Sat, 14 Jan 2017 20:37:22 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2017-01-14:/news/xorg-server-1191-is-now-in-extra/</guid></item><item><title>OpenVPN 2.4.0 update requires administrative interaction</title><link>https://www.archlinux.org/news/openvpn-240-update-requires-administrative-interaction/</link><description>&lt;p&gt;The upgrade to OpenVPN 2.4.0 makes changes that are incompatible with
+previous configurations. Take &lt;strong&gt;special care&lt;/strong&gt; if you depend on VPN
+connectivity for &lt;strong&gt;remote access&lt;/strong&gt;! Administrative interaction is required:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Configuration is expected in sub directories now. Move your files
+  from &lt;code&gt;/etc/openvpn/&lt;/code&gt; to &lt;code&gt;/etc/openvpn/server/&lt;/code&gt; or &lt;code&gt;/etc/openvpn/client/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The plugin lookup path changed, remove extra &lt;code&gt;plugins/&lt;/code&gt; from relative
+  paths.&lt;/li&gt;
+&lt;li&gt;The systemd unit &lt;code&gt;openvpn@.service&lt;/code&gt; was replaced with
+  &lt;code&gt;openvpn-client@.service&lt;/code&gt; and &lt;code&gt;openvpn-server@.service&lt;/code&gt;. Restart and
+  reenable accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This does not affect the functionality of &lt;code&gt;networkmanager&lt;/code&gt;, &lt;code&gt;connman&lt;/code&gt;
+or &lt;code&gt;qopenvpn&lt;/code&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Christian Hesse</dc:creator><pubDate>Fri, 30 Dec 2016 10:54:03 +0000</pubDate><guid isPermaLink="false">tag:www.archlinux.org,2016-12-30:/news/openvpn-240-update-requires-administrative-interaction/</guid></item></channel></rss>
